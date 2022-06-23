@@ -1,0 +1,209 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav {
+    display: flex;
+    height: 78px;
+    width: 100%;
+    background-color: rgb(117, 112, 112);
+    align-items: center;
+    border-radius: 57px;
+}
+
+.navul {
+    display: flex;
+    margin: 23px;
+    padding: 12px;
+    height: 23px;
+    align-items: center;
+    font-size: 27px;
+}
+
+.navv {
+    list-style: none;
+    padding: 23px;
+    justify-content: center;
+    color: white;
+    cursor:pointer;
+
+}
+.navv:hover{
+    color:rgb(124, 221, 190);
+    border-bottom:2px solid black;
+}
+.s {
+    display: flex;
+    background-color: rgb(179, 237, 179);
+    width: 1891px;
+    height: 67px;
+   
+    font-size: 23px;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.center {
+    margin-top: 3px;
+}
+
+.prev {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+#text {
+    padding: 6px;
+    margin: 2px;
+    position: absolute;
+    right: 76px;
+    
+}
+
+.radio1 {
+    margin-left: 351px;
+    height: 37px;
+    font-size: 30px;
+}
+
+#search {
+    padding: 6px;
+    margin: 4px;
+    position: absolute;
+    right: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 561px;
+
+}
+
+.varsha1 {
+    margin-left: 212px;
+    width: 309px;
+    height: 31px;
+    margin-top: 20px;
+}
+
+.div {
+    
+    font-family: cursive;
+    margin-top:53px;
+    
+}
+
+#email_id {
+    margin-left: 132px;
+    width: 350px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 39px;
+    margin-top: 23px;
+}
+#name{
+    margin-left: 126px;
+    width: 350px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 39px;
+    
+}
+#web{
+    margin-left: 86px;
+    width: 350px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 39px;
+    margin-top: 23px;
+}
+#url{
+    margin-left: 156px;
+    width: 350px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 39px;
+    margin-top: 23px;
+}
+.label_for_gender{
+    margin-top: 29px;
+    font-size: 26px;
+    display: inline-block;
+}
+.radio_type{
+    margin-left: -142px;
+    margin-top: -38px;
+    display: inline-block;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    background-color: blue;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-right: 32px;
+}
+
+.radio {
+
+    margin-left: 351px;
+    height: 37px;
+    font-size: 30px;
+}
+.radio2{
+    margin-left: 351px;
+    height: 37px;
+    font-size: 30px;
+   
+
+}
+
+.label {
+    font-size: 30px;
+    width: 1px;
+    height: 0px;
+    margin-top: 0px;
+}
+.label4{
+    font-size: 30px;
+    width: 1px;
+    height: 0px;
+    margin-top: 0px; 
+}
+.label5{
+    width: 19px;
+    height: 17px;
+    margin-top: 0px;
+    margin-left: 139px;
+
+}
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+table{
+    width:74%;
+    border:1px solid black;
+    border-collapse:collapse;
+
+}
+th,td{
+   padding:12px;
+   text-align:left;
+  border-bottom:1px solid black;
+}
+tr:nth-last-child(even){
+    background-color:rgb(233, 217, 198);
+}

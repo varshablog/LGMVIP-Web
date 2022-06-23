@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+
+        
+</head>
+
+<body>
+    <header class="nav">
+        <ul class="navul" id="navul"> 
+            <li class="navv">Book Library</li>
+            <li class="navv">Home</li>
+            
+        </ul>
+    </header>
+    <div id="error">
+        <!-- <div class="s">
+            <div class="center">
+                <strong>Failure</strong>&emsp;Your response has not been submitted
+                <a class="prev" onclick="remove()">&#10060;</a>
+            </div>
+        </div> -->
+    </div>
+    <middle class="middle">
+        <h1></h1>
+        <div class="div">
+            <form id="registrationForm">
+                <div class="text">
+                    <label for="name" class="label" id="label1">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="email">
+                    <label for="email" class="label" id="label2">Email</label>
+                    <input type="Email" name="email" id="email_id" placeholder="Enter EmailId">
+                </div>
+                <div class="website">
+                    <label for="website" class="label" id="label3">Website</label>
+                    <input type="text" name="website" id="web"  placeholder="Enter Website">
+                </div>
+                <div class="link">
+                    <label for="link" class="label" id="label2">link</label>
+                    <input type="url" name="link" id="url" placeholder="Enter link">
+                </div>
+                <div>
+                    <label class="label_for_gender" for="radio">Gender</label>
+                </div>
+                <div class="radio_type">
+                    <div class="radio1">
+                        <input type="radio" name="radio" id="input1" value="male">
+                        <label for="radio">Male</label>
+                    </div> 
+                    <div class="radio">
+                        <input type="radio" name="radio" id="input2" value="female">
+                        <label for="radio">Female</label>
+                    </div>
+                </div>
+                <div>
+                </div>
+                
+                <label for="" class="label">skills</label>
+                <!-- <div class="radio2"> -->
+                    <input type="checkbox" value="java" class="label5" id="java">
+                    <label class="label4"for="checkbox">java</label>
+                    <input type="checkbox" value="html" class="label5" id="html">
+                    <label class="label4"for="checkbox">html</label>
+                    <input type="checkbox" value="css" class="label5" id="css">
+                    <label class="label4"for="checkbox">css</label>
+                <!-- </div> -->
+                <div>
+                    <button type="submit" class="btn">Add</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </middle>
+    <footer class="footer">
+        <h1></h1>
+        <table>
+            <thead >
+                <tr >
+                    
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Website</th>
+                    <th>Link</th>
+                    <th>Gender</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+
+        </table>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
